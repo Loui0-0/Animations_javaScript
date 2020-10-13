@@ -138,7 +138,7 @@ function animate() {
 	  drawPixel(x,y,[
                 map(di[va2.value],0,taille,255,0),
 	        map(di[va2.value],0,taille,255,0),
-		map(di[va2.value],0,taille,255,0))
+		map(di[va2.value],0,taille,255,0)])
 
 //           drawPixel(x,y,[
 //             map(di[1],0,130,255,0),
