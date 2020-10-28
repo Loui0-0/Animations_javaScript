@@ -135,16 +135,16 @@ function animate() {
           var color = map(di[va2.value],0,Number(va.value),0,255)
 	  taille = Number(va.value)
 	  index = va2.value
-	  drawPixel(x,y,[
-                map(di[va2.value],0,taille,255,0),
-	        map(di[va2.value],0,taille,255,0),
-		map(di[va2.value],0,taille,255,0)])
+// 	  drawPixel(x,y,[
+//                 map(di[va2.value],0,taille,255,0),
+// 	        map(di[va2.value],0,taille,255,0),
+// 		map(di[va2.value],0,taille,255,0)])
 
-//           drawPixel(x,y,[
-//             map(di[1],0,130,255,0),
-//             color,
-//             map(di[2],0,250,0,255)
-//             ])
+          drawPixel(x,y,[
+            map(di[1],0,130,255,0),
+            color,
+            map(di[2],0,250,0,255)
+            ])
 
 
 
